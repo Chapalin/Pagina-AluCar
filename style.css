@@ -1,0 +1,174 @@
+body {
+    margin: auto;
+}
+
+.cabecalho {
+    border-bottom: 2px solid black ;
+    padding: 10px 0px 10px 0px;
+    background-color: rgba(255, 0, 0, 1 );
+
+}
+
+.cabecalho-fundo {
+    background-color: rgba(0, 0, 0, 0.2 );
+}
+.cabecalho p {
+    color: wheat;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-left: 1px solid palegoldenrod;
+    border-radius: 3px;
+}
+
+.cabecalho-limitada {
+    width: 100;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.primeiraSection {
+    min-height: 400px;
+    background-image: url(img/capa.jpg);
+    background-size: 100% 400px ;
+    background-repeat: no-repeat;
+}
+
+.fundoTransparente{
+    height: 200px;
+}
+.segundaSection {
+    text-align:center;
+    margin: 5px 0px;
+}
+
+.segundaSection img {
+    margin: 0px 5px;
+    width: 15%; 
+    border: 1px solid  black; 
+    transition-duration: 600ms;
+    border-radius: 5px;
+}
+
+.segundaSection p {
+    font-weight: bold;
+}
+
+.segundaSection img:hover {
+    width: 20%;
+    border: 1px solid  aquamarine; 
+    cursor: pointer;
+}
+
+.conteudoPrimeiraSection {
+    height:100px;
+    text-align: right;
+    padding: 45px 100px;
+    background: #00000085;
+    color:wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteudoPrimeiraSection h1 {
+    color:palegoldenrod;
+    margin-bottom: -20px; 
+}
+
+.conteudoPrimeiraSection h1:last-child {
+    width: 24.9%;
+    border-bottom: 5px ridge wheat ;
+    border-radius: 5px;
+    margin-left: 75.5%;
+}
+
+.separa {
+    background-color: red;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.divide-cabecalho {
+    background-color: rgba(255, 0, 0, 1 );
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.divide-cabecalho h1 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2 );
+    color: wheat;
+    margin: 0 auto;
+}
+
+.separa h1 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2 );
+    color: wheat;
+    margin: 0 auto;
+}
+
+.terceiraSection {
+    text-align: center;
+    width: 50%;
+    margin-left:25%
+}
+
+.terceiraSection legend {
+    text-align: start;
+}
+
+.terceiraSection .formFilho {
+    width: 100%;
+    height: 165px;
+
+    text-align: start;
+    display:flex;
+    flex-direction: column;
+}
+
+.terceiraSection .formFilho label {
+    margin: 5px 0px 5px 0px;
+
+}
+
+.terceiraSection .dois {
+    height: 115px;
+}
+
+.terceiraSection .tres {
+    height: 70px;
+}
+
+.formFilho div {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    width: 90%;
+    height: 30px;
+    margin: 5px 0px 0px 17px;
+    padding: 5px 0px;
+    background-color: red;
+    color:wheat;
+    border: 1px solid black;
+    font-family: monospace;
+    cursor:pointer
+
+}
+
+.botao:hover {
+    background-color: green;
+    width: 100%;
+    height: 40px
+}
+
+footer {
+    text-align: center;
+    margin-top:50px;
+    padding: 10px 0px;
+    border: 1px groove black;
+    background-color: red;
+}
